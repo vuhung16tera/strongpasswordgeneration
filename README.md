@@ -9,7 +9,12 @@ Generate strong passwords (code is made by ChatGPT)
 Write a web application with the following requirements 
 
 - The main purpose is to generate a random and strong password 
-- A strong password is a password that: a) Has at least one digit, b) Has at least one special character, c) Has at least one upper-case and one lower-case characters, d) Minimum length is 14, e) Has at least one symbol 
+- A strong password is a password that: 
+  a) Has at least one digit, 
+  b) Has at least one special character, 
+  c) Has at least one upper-case and one lower-case characters, 
+  d) Minimum length is 14, 
+  e) Has at least one symbol 
 
 - Use HTML, CSS 
 - Use JavaScript 
