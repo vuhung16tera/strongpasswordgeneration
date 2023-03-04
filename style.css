@@ -1,0 +1,46 @@
+body {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 1em;
+}
+
+#password-container {
+	text-align: center;
+	margin-top: 2em;
+}
+
+#password {
+	font-size: 1.5em;
+	padding: 0.5em;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+#options-container {
+	margin-top: 2em;
+	text-align: center;
+}
+
+label {
+	margin-right: 1em;
+}
+
+button {
+	margin-top: 1em;
+	padding: 0.5em 1em;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #0062cc;
+}
