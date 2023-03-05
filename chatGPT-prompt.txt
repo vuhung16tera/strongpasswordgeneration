@@ -1,4 +1,3 @@
-
 Write a web application with the following requirements 
 
 - The main purpose is to generate a random and strong password 
@@ -6,6 +5,7 @@ Write a web application with the following requirements
 
 - Use HTML, CSS 
 - Use JavaScript 
+- Use Python Flask
 - This is a single-page website 
 - It runs on a browser 
 - When the browser is loaded for the first time, it will display a random strong password 
@@ -14,3 +14,7 @@ Write a web application with the following requirements
 - There is a checkbox that let users to enable or disable putting a digit(s) in passwords
 - There is a checkbox that let users to enable or disable putting a special character(s) in passwords
 - There is a textbox that let user specify the length of the passwords
+
+- There is a button "save password to database". When the button "save password to database" is clicked, save the generated password to MariaDB database.
+  The connection string to the MariaDB server is "jdbc:mariadb:User=passgen;Password=GenPass2345;Database=passgen;Server=localhost;Port=3306;"
+  Use Python flask to save the passwords to the MariaDB database.
