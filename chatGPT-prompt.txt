@@ -2,9 +2,7 @@ Write a web application with the following requirements
 
 - The main purpose is to generate a random and strong password 
 - A strong password is a password that: a) Has at least one digit, b) Has at least one special character, c) Has at least one upper-case and one lower-case characters, d) Minimum length is 14, e) Has at least one symbol 
-
-- Use HTML, CSS 
-- Use JavaScript 
+ 
 - Use Python Flask
 - This is a single-page website 
 - It runs on a browser 
@@ -18,3 +16,4 @@ Write a web application with the following requirements
 - There is a button "save password to database". When the button "save password to database" is clicked, save the generated password to MariaDB database.
   The connection string to the MariaDB server is "jdbc:mariadb:User=passgen;Password=GenPass2345;Database=passgen;Server=localhost;Port=3306;"
   Use Python flask to save the passwords to the MariaDB database.
+  
