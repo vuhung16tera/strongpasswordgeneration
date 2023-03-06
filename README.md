@@ -3,6 +3,7 @@
 Generate strong passwords (code is made by ChatGPT)
 
 ## Features 
+- Generate strong passwords
 - Run on a browser, no backend needed 
 
 ## Notes 
